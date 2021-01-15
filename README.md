@@ -3,19 +3,19 @@
 ```json
 {
 	"require": {
-		"smm229/laravel-admin-alioss": "~1.0"
+		"smm229/laravel-admin-aliyunoss": "~1.0"
 	},
 	"repositories": [
 		{
 			"type": "git",
-			"url": "git@github.com:smm229/laravel-admin-alioss.git"
+			"url": "git@github.com:smm229/laravel-admin-aliyunoss.git"
 		}
 	]
 }
 ```
-#### 删除 `composer.lock`后运行 `composer install -vvv` 
+#### 删除 `composer.lock`后运行 `composer install -vvv`
 
-#### 发布前端资源 `php artisan vendor:publish --tag=laravel-admin-alioss`
+#### 发布前端资源 `php artisan vendor:publish --tag=laravel-admin-aliyunoss`
 
 #### 相关配置设置
 

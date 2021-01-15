@@ -1,12 +1,12 @@
 <?php
 
-namespace smm229\AdminOss;
+namespace ssm229\LaravelAdminAliyunoss;
 
 use Encore\Admin\Extension;
 
 class AliOssForm extends Extension
 {
-	public $name = 'laravel-admin-alioss';
+	public $name = 'laravel-admin-aliyunoss';
 
 	public $views = __DIR__ . '/../resources/views';
 

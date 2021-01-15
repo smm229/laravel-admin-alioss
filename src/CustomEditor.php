@@ -1,20 +1,20 @@
 <?php
 
-namespace smm229\AdminOss;
+namespace ssm229\LaravelAdminAliyunoss;
 
 use Encore\Admin\Form\Field;
 
 class CustomEditor extends Field
 {
-	protected $view = 'laravel-admin-alioss::editor';
+	protected $view = 'laravel-admin-aliyunoss::editor';
 
 	protected static $css = [
-		'vendor/smm229/laravel-admin-alioss/wangEditor-3.0.10/release/wangEditor.min.css',
+		'vendor/smm229/laravel-admin-aliyunoss/wangEditor-3.0.10/release/wangEditor.min.css',
 	];
 
 	protected static $js = [
-		'vendor/smm229/laravel-admin-alioss/wangEditor-3.0.10/release/wangEditor.min.js',
-		'vendor/smm229/laravel-admin-alioss/upload.js',
+		'vendor/smm229/laravel-admin-aliyunoss/wangEditor-3.0.10/release/wangEditor.min.js',
+		'vendor/smm229/laravel-admin-aliyunoss/upload.js',
 	];
 
 	/**

@@ -1,6 +1,6 @@
 <?php
 
-namespace smm229\AdminOss;
+namespace ssm229\LaravelAdminAliyunoss;
 
 use Encore\Admin\Admin;
 use Encore\Admin\Form;
@@ -17,14 +17,14 @@ class AliOssFormServiceProvider extends ServiceProvider
 
 		//注册视图
 		if ($views = $extension->views()) {
-			$this->loadViewsFrom($views, 'laravel-admin-alioss');
+			$this->loadViewsFrom($views, 'laravel-admin-aliyunoss');
 		}
 
 		//注册静态资源
 		if ($this->app->runningInconsole() && $assets = $extension->assets()) {
 			$this->publishes(
-				[$assets => public_path('vendor/smm229/laravel-admin-alioss')],
-				'laravel-admin-alioss'
+				[$assets => public_path('vendor/smm229/laravel-admin-aliyunoss')],
+				'laravel-admin-aliyunoss'
 			);
 		}
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ezreal\AdminOss;
+namespace ssm229\LaravelAdminAliyunoss;
 
 use Encore\Admin\Form\Field;
 
@@ -9,15 +9,15 @@ use Encore\Admin\Form\Field;
  */
 class CustomFile extends Field
 {
-	protected $view = 'laravel-admin-alioss::file';
+	protected $view = 'laravel-admin-aliyunoss::file';
 
 	protected static $css = [
-		'vendor/smm229/laravel-admin-alioss/style.css',
+		'vendor/smm229/laravel-admin-aliyunoss/style.css',
 	];
 
 	protected static $js = [
-		'vendor/smm229/laravel-admin-alioss/plupload-2.1.2/js/plupload.full.min.js',
-		'vendor/smm229/laravel-admin-alioss/upload.js',
+		'vendor/smm229/laravel-admin-aliyunoss/plupload-2.1.2/js/plupload.full.min.js',
+		'vendor/smm229/laravel-admin-aliyunoss/upload.js',
 	];
 
 	/**

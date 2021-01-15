@@ -1,5 +1,5 @@
 {
-	"name": "smm229/laravel-admin-alioss",
+	"name": "smm229/laravel-admin-aliyunoss",
 	"description": "laravel-admin扩展，web直传阿里oss（file，image，editor），基于ezreal/admin-oss开发",
 	"type": "library",
 	"keywords": ["laravel-admin", "extension", "alioss-web-direct"],
@@ -25,7 +25,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"smm229\\LaravelAdminAlioss\\AliOssFormServiceProvider"
+				"smm229\\LaravelAdminAliyunoss\\AliOssFormServiceProvider"
 			]
 		}
 	}
