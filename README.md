@@ -3,7 +3,7 @@
 ```json
 {
 	"require": {
-		"smm229/laravel-admin-aliyunoss": "~v1.0"
+		"smm229/laravel-admin-aliyunoss": "^1.0"
 	},
 	"repositories": [
 		{

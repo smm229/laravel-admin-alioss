@@ -1,6 +1,6 @@
 <?php
 
-namespace smm229\LaravelAdminAliyunoss;
+namespace Ssm229\LaravelAdminAliyunoss;
 
 use Encore\Admin\Form\Field;
 
