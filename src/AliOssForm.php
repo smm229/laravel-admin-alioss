@@ -1,6 +1,6 @@
 <?php
 
-namespace Ssm229\LaravelAdminAliyunoss;
+namespace Smm229\LaravelAdminAliyunoss;
 
 use Encore\Admin\Extension;
 

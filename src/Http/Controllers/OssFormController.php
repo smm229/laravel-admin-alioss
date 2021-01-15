@@ -1,6 +1,6 @@
 <?php
 
-namespace Ssm229\LaravelAdminAliyunoss\Http\Controllers;
+namespace Smm229\LaravelAdminAliyunoss\Http\Controllers;
 
 use Encore\Admin\Layout\Content;
 use Illuminate\Routing\Controller;

@@ -15,7 +15,7 @@
 ```
 #### 删除 `composer.lock`后运行 `composer install -vvv`
 
-#### 发布前端资源 `php artisan vendor:publish --tag=v1.0`
+#### 发布前端资源 `php artisan vendor:publish --tag=1.0`
 
 #### 相关配置设置
 
